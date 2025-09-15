@@ -1,0 +1,1 @@
+generate_sine_wave(frequency, duration, sample_rate) 
