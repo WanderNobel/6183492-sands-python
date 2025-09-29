@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 from signals import generate_sine_wave
-t, wave = generate_sine_wave(1, 1, 0)
+t, wave = generate_sine_wave(1, 1, 0, 1)
 plt.figure(1)
 plt.plot(t, wave)
 plt.xlabel('Time')
@@ -21,10 +21,19 @@ plt.title('Step Function')
 plt.show()
 
 from signals import generate_sine_wave
-t, wave = generate_sine_wave(1, 1, 0.5)
+t, wave = generate_sine_wave(1, 1, 0.5, 1)
 plt.figure(3)
 plt.plot(t, wave)
 plt.xlabel('Time')
 plt.ylabel('Amplitude')
 plt.title('Time Shifted Sinusoidal Signal')
+plt.show()
+
+from signals import generate_sine_wave
+t, wave = generate_sine_wave(1, 1, 0.5, 2)
+plt.figure(3)
+plt.plot(t, wave)
+plt.xlabel('Time')
+plt.ylabel('Amplitude')
+plt.title('Time Shifted and Time Scaled Sinusoidal Signal')
 plt.show()
