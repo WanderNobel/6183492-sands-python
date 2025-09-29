@@ -6,6 +6,6 @@ def generate_sine_wave(frequency, duration, sample_rate):
     wave = np.sin(2 * np.pi * frequency * t)
     return wave 
 
-def generate_step_function(t, step_time)
+def generate_step_function(t, step_time):
     return np.where(t < step_time, 0, 1)
 
