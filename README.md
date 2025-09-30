@@ -1,4 +1,4 @@
-#Project with different functions
+# Project with different functions
 
 This is a project containing the following functions:
 - A sinusoidal signal
@@ -8,3 +8,8 @@ This is a project containing the following functions:
 
 ## How to run
 
+To run the project, you need to have installed. Then you can run the following command:
+
+```bash
+python run.py
+```
