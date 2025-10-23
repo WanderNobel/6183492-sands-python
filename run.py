@@ -8,7 +8,7 @@ plt.plot(t, wave)
 plt.xlabel('Time')
 plt.ylabel('Amplitude')
 plt.title('Sinusoidal Signal')
-plt.show()
+#plt.show()
 
 from signals import generate_step_function
 t = np.linspace(-1,1)
@@ -18,7 +18,7 @@ plt.plot(t, step)
 plt.ylabel('Amplitude')
 plt.xlabel('Time')
 plt.title('Step Function')
-plt.show()
+#plt.show()
 
 from signals import generate_sine_wave
 t, wave = generate_sine_wave(1, 1, 0.5, 1)
@@ -27,7 +27,7 @@ plt.plot(t, wave)
 plt.xlabel('Time')
 plt.ylabel('Amplitude')
 plt.title('Time-Shifted Sinusoidal Signal')
-plt.show()
+#plt.show()
 
 from signals import generate_sine_wave
 t, wave = generate_sine_wave(1, 1, 0.5, 2)

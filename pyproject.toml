@@ -7,4 +7,4 @@ name = "Singal Generator Project"
 version = "0.1.0"
 description = "A simple Python project for generating and visualizing signals"
 authors = [{name = "Wander Nobel", email = "wanobel@tudelft.nl"}]
-dependencies = ["numpy","matplotlib"]
+dependencies = ["numpy", "matplotlib"]
